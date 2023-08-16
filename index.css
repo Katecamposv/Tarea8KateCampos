@@ -1,0 +1,190 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/9f/5c/a7/9f5ca7777369f48f4a0e35eafdbcdc56.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    border: white solid 10px;
+    padding: 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.contenedor h2 {
+    color: orangered;
+}
+
+.contenedor h3 {
+    color: white;
+}
+
+.contenedor input {
+    border: 0;
+    border-bottom: 2px solid white;
+    outline: 0;
+    color: black;
+    background: transparent;
+
+}
+
+#provincia {
+    border: 0;
+    border-bottom: 2px solid white;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 32%;
+    height: 30px;
+
+}
+
+#canton {
+    border: 0;
+    border-bottom: 2px solid white;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 32%;
+    height: 30px;
+
+}
+
+#distrito {
+    border: 0;
+    border-bottom: 2px solid white;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 32%;
+    height: 30px;
+
+}
+
+.CP {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+select{
+    height: 30px;
+    margin: 15px;
+}
+#Cantidad {
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 65px;
+
+}
+
+#Producto {
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 119px;
+}
+
+#Tamano {
+    border: 1;
+    border-color: white;
+    outline: 0;
+    color: white;
+    background-color: transparent;
+    width: 65px;
+}
+
+.contenedor #Seleccionado {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor p {
+    color: white;
+    width: 30%;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    color: white;
+    width: 25%;
+    height: 35px;
+    border: 0;
+}
+
+button:hover {
+
+    background-color: white;
+    color: orangered;
+}
+
+#CargarD {
+    background-color: transparent;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+}
+
+#pagar {
+    width: 40%;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+#Producto_Seleccionado {
+    background-color: orangered;
+    border: white solid 1px;
+    color: white;
+    height: 50px;
+    width: 100%;
+    opacity: 60%;
+}
+
+input::placeholder {
+    color: white;
+}
+
+option {
+    color: gray;
+}
+table td{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
